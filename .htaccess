@@ -1,0 +1,8 @@
+# Habilitar o RewriteEngine
+RewriteEngine on
+
+# Redirecionar o tráfego do domínio principal para a pasta public
+RewriteCond %{HTTP_HOST} ^subdominio.seusite.com.br$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.seusite.com.br$ [NC]
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L]
