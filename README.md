@@ -4,8 +4,8 @@
  - `cd public`
  - `php -S localhost:8080`
 # Sobre o projeto.
-Tudo começou como uma base de estudos, porem eu achei que foi ficando tão bom que acabei mostrando ao meu chefe na empresa em que trabalho como suporte técnico em informática, e ele pediu para colocar em produção.
-É um ERP que gerencia as propostas feitas pelos corretores, em uma empresa de emprestimo consignado.
+Tudo começou como uma base de estudos, porem eu achei que foi ficando tão bom que acabei mostrando ao meu chefe na empresa em que trabalho como suporte técnico em informática, e ele pediu para colocar em produção.<br>
+É um ERP que gerencia as propostas feitas pelos corretores, em uma empresa de emprestimo consignado.<br>
 Com este sistema os corretores podem cadastrar uma proposta, acompanhar os status em que essa proposta se encontra, fazer consultas de margem.
 
 ### Sobre os status da proposta.
@@ -24,7 +24,7 @@ Atualmente existem 10 status sendo eles.
 
 Sendo que os status 6 e 7 devem ser atualizados via API do ClickSign e 8, 9 e 10 devem ser atualizados via API BMP. Atualização essas ainda não integradas ao sistema.
 
-## Problema resolvido.
+## Problemas resolvidos.
 1. Clareza com os usuários para saber em que situação a proposta se encontra.
 2. Eliminou o uso de planilhas pela equipe de backoffice para acompanhar a situação da proposta e também das assinaturas.
 3. Permitiu que a equipe de atendimento der mais atenção e tenha mais tempo para responder aos contatos feitos por emails e whatsapp, devido a eliminação das planilhas.
@@ -53,8 +53,8 @@ Sendo que os status 6 e 7 devem ser atualizados via API do ClickSign e 8, 9 e 10
 - Envio de email pelo PHPMailer
 
 # Observação
-Sinto que pode ser feito muito mais por esse ERP, como integrar ele os sistemas internos como o ClickSign, BMP, e até mesmo para o sistema de conciliação da empresa, evitando assim também a digitação das propostas.
-Fica para um próximo estudo a criação de uma API para este projeto.
+Sinto que pode ser feito muito mais por esse ERP, como integrar ele os sistemas internos como o ClickSign, BMP, e até mesmo para o sistema de conciliação da empresa, evitando assim também a digitação das propostas.<br>
+Fica para um próximo estudo a criação de uma API para este projeto.<br>
 
 # Responsavel
 [Cleiton Carvalho](https://github.com/TonnCarvalho/)
